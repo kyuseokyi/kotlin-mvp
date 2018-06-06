@@ -14,7 +14,7 @@ public interface RepositoryListContract {
         String getSelectedLanguage();
         void showProgress();
         void hideProgress();
-        void showRepositories();
+        void showRepositories(GitHubService.Repositories repositories);
         void showError();
         void startDetailActivity(String fullRepositoryName);
     }
