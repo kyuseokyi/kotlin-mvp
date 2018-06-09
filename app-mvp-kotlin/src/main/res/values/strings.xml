@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">app-mvp-kotlin</string>
+    <string name="app_name">NewGitHubRepos</string>
+    <string name="action_settings">Settings</string>
 </resources>

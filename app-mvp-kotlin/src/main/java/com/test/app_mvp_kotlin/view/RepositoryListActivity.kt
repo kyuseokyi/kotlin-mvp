@@ -9,7 +9,7 @@ class RepositoryListActivity : AppCompatActivity(), RepositoryListcontract.View 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_repository_list)
     }
 
     override fun getSelectedLanguage(): String {
